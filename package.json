@@ -1,0 +1,16 @@
+{
+  "name": "game-night-rooms",
+  "version": "1.0.0",
+  "description": "Host Cambio, Spades or Poker rooms and let friends join with a code.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
